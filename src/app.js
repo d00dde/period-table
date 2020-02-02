@@ -13,7 +13,7 @@ function App() {
   		setLang('ru');
   }
   return (
-  	<LanguageContext.Provider value={lang}>
+  	<LanguageContext.Provider value={{lang, changeLanguage}}>
 	    <div className="app">
         <Controls />
 	      <Table />

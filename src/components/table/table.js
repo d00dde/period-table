@@ -5,7 +5,7 @@ import {data} from '../../data';
 import './table.css';
 
 function Table() {
-	const lang = useContext(LanguageContext);
+	const lang = useContext(LanguageContext).lang;
   const cards = data.map((item) => {
   	return <Card key={item.title || Math.random()} item={item} lang={lang} />
   })
