@@ -1,0 +1,74 @@
+.card {
+	width: 5.2%;
+	height: 10%;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 0.05%;
+	position: relative;
+	
+}
+.blank{
+	border: none;
+}
+.low {
+	height: 3%;
+}
+
+.card:hover {
+	transform: scale(1.2);
+	z-index: 10;
+}
+
+.card .number {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 6%;
+	font-size: 1vw;
+}
+
+.card h2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 6%;
+	font-size: 1.6vw;
+}
+.card .name {
+	position: absolute;
+	top: 45%;
+	left: 0;
+	margin: 6%;
+	font-size: 0.7vw;
+}
+
+.nonmetal {
+	background-color: #2196f3;
+}
+.noble-gas {
+	background-color: #bdbdbd;
+}
+.halogen {
+	background-color: #ab47bc;
+}
+.alcali-metal {
+	background-color: #ef5350;
+}
+.alcaline-earth-metal {
+	background-color: #ffee58;
+}
+.post-transition-metal {
+	background-color: #ffb74d;
+}
+.metaloid {
+	background-color: #4dd0e1;
+}
+.transition-metal{
+	background-color: #66bb6a;
+}
+.lantanide {
+	background-color: #26a69a;
+}
+.actinide {
+	background-color: #ff8a65;
+}
